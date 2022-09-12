@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+.image{
+    background-color: white;
+    float: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    padding: 1.5rem;
+    padding-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5em;
+    font-size: small;
+    width: 350px;
+    display: inline-block;
+    background-color: white;
+    border-top-right-radius: 20px;
+}
+.product-name{
+    padding-left: 2rem;
+    font-family: 'Fraunces', serif;
+    width: 250px;
+    height: 120px;
+    background-color: white;
+    display: flex; 
+}
+.content{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 290px;
+    height: 125px;
+    display: flex;
+    background-color: white;
+}
+.price{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+    width: 300px;
+    /* transform: translate(20px, 200px); */
+    height: 100px;
+    float: left;
+    background-color: white;
+    text-align: justify;
+    display: flex;
+}
+.button{
+    padding: 2rem;
+    height: 3rem;
+    width: 12rem;
+    float: left;
+    background-color:hsl(158, 36%, 37%);
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem;
+    margin-left: 4rem;
+    border-radius: 10px;
+    color: white;
+    /* transform: translate(0px, 250px); */
+}
+#discount{
+    padding: 0.5rem;
+    font-size: small;
+    text-decoration: line-through;
+    text-align: center;
+    background-color: white;
+    color: hsl(228, 12%, 48%);
+    width: 20px;
+    height: 40px;
+} 
+.info{
+    width: 700px;
+    height: 550px;
+    background-color: white;
+    transform: translate(70%,50%);
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: hsl(158, 36%, 22%);
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 50px;
+    background-color: hsl(158, 36%, 37%);
+}
+
+/* @media screen and (max-width: 320px) {
+    body{
+        background-color: aqua;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
+        }
+} */
